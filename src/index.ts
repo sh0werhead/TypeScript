@@ -93,7 +93,7 @@ app.get("/refresh", (req : Request, res : Response)=>{
 
 
 app.get("/", (req, res)=>{
-    res.send("hi there!");
+    res.send("hi man!");
 });
 
 app.listen(3000, ()=> console.log('listen on 3000!!!'));
