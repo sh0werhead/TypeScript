@@ -1,0 +1,23 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/pg": "^8.6.6",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0"
+  }
+}
