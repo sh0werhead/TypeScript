@@ -92,7 +92,7 @@ app.get("/refresh", (req : Request, res : Response)=>{
 })
 
 
-app.get("/", (req, res)=>{
+app.get("/", (req : Request, res : Response)=>{
     res.send("hi man!");
 });
 
